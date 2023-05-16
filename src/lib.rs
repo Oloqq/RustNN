@@ -186,8 +186,8 @@ impl<'a,'b> Trainer<'a,'b>  {
 /// Neural network
 #[derive(Debug, Clone, RustcDecodable, RustcEncodable)]
 pub struct NN {
-    layers: Vec<Vec<Vec<f64>>>,
-    num_inputs: u32,
+    pub layers: Vec<Vec<Vec<f64>>>,
+    pub num_inputs: u32,
 }
 
 impl NN {

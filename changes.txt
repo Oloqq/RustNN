@@ -1,0 +1,1 @@
+made NN members public
